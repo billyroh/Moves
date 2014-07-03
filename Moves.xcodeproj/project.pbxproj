@@ -19,6 +19,10 @@
 		B1EDBE751965F503002E2986 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EDBE5D1965F503002E2986 /* UIKit.framework */; };
 		B1EDBE7D1965F503002E2986 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1EDBE7B1965F503002E2986 /* InfoPlist.strings */; };
 		B1EDBE7F1965F503002E2986 /* MovesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EDBE7E1965F503002E2986 /* MovesTests.m */; };
+		B1EDBE8E1965F54E002E2986 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EDBE8C1965F54E002E2986 /* MainViewController.m */; };
+		B1EDBE8F1965F54E002E2986 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1EDBE8D1965F54E002E2986 /* MainViewController.xib */; };
+		B1EDBE931965F657002E2986 /* DayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1EDBE911965F657002E2986 /* DayViewController.m */; };
+		B1EDBE941965F657002E2986 /* DayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1EDBE921965F657002E2986 /* DayViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		B1EDBE7A1965F503002E2986 /* MovesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MovesTests-Info.plist"; sourceTree = "<group>"; };
 		B1EDBE7C1965F503002E2986 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B1EDBE7E1965F503002E2986 /* MovesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovesTests.m; sourceTree = "<group>"; };
+		B1EDBE8B1965F54E002E2986 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B1EDBE8C1965F54E002E2986 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B1EDBE8D1965F54E002E2986 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		B1EDBE901965F657002E2986 /* DayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayViewController.h; sourceTree = "<group>"; };
+		B1EDBE911965F657002E2986 /* DayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayViewController.m; sourceTree = "<group>"; };
+		B1EDBE921965F657002E2986 /* DayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DayViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,12 @@
 			children = (
 				B1EDBE681965F503002E2986 /* AppDelegate.h */,
 				B1EDBE691965F503002E2986 /* AppDelegate.m */,
+				B1EDBE8B1965F54E002E2986 /* MainViewController.h */,
+				B1EDBE8C1965F54E002E2986 /* MainViewController.m */,
+				B1EDBE8D1965F54E002E2986 /* MainViewController.xib */,
+				B1EDBE901965F657002E2986 /* DayViewController.h */,
+				B1EDBE911965F657002E2986 /* DayViewController.m */,
+				B1EDBE921965F657002E2986 /* DayViewController.xib */,
 				B1EDBE6B1965F503002E2986 /* Images.xcassets */,
 				B1EDBE601965F503002E2986 /* Supporting Files */,
 			);
@@ -220,7 +236,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1EDBE641965F503002E2986 /* InfoPlist.strings in Resources */,
+				B1EDBE8F1965F54E002E2986 /* MainViewController.xib in Resources */,
 				B1EDBE6C1965F503002E2986 /* Images.xcassets in Resources */,
+				B1EDBE941965F657002E2986 /* DayViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +258,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1EDBE6A1965F503002E2986 /* AppDelegate.m in Sources */,
+				B1EDBE8E1965F54E002E2986 /* MainViewController.m in Sources */,
 				B1EDBE661965F503002E2986 /* main.m in Sources */,
+				B1EDBE931965F657002E2986 /* DayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
